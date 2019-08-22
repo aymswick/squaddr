@@ -3,4 +3,8 @@
     <string name="title_feed">Feed</string>
     <string name="title_chat">Chat</string>
     <string name="title_timeline">Timeline</string>
+    <string name="display_name_placeholder">Display Name</string>
+    <string name="username_placeholder">username</string>
+    <string name="message_button_text">Message</string>
+    <string name="meet_button_text">Meet</string>
 </resources>
