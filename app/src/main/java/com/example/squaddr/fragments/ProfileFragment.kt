@@ -1,4 +1,4 @@
-package com.example.squaddr
+package com.example.squaddr.fragments
 
 import android.os.Bundle
 import android.view.ViewGroup
@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.ImageView
+import com.example.squaddr.R
 import com.example.squaddr.transformations.CircleTransform
 import com.squareup.picasso.Picasso
 

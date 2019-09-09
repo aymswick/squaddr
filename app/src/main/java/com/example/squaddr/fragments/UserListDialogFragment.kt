@@ -1,4 +1,4 @@
-package com.example.squaddr
+package com.example.squaddr.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.example.squaddr.R
 import kotlinx.android.synthetic.main.fragment_user_list_dialog.*
 import kotlinx.android.synthetic.main.fragment_user_list_dialog_item.view.*
 
@@ -36,9 +37,9 @@ class UserListDialogFragment : BottomSheetDialogFragment() {
         return inflater.inflate(R.layout.fragment_user_list_dialog, container, false)
     }
 
-    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         list.layoutManager = LinearLayoutManager(context)
-        list.adapter = UserAdapter(arguments?.getInt(ARG_ITEM_COUNT))
+        list.adapter = UserAdapter(arguments!!.getInt(ARG_ITEM_COUNT))
     }
 
     override fun onAttach(context: Context) {
