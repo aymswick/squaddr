@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This layout file is for menu items within the hamburger menu on the bottomappbar -->
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+
+
+</menu>

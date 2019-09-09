@@ -15,4 +15,10 @@
         android:title="@string/title_timeline"
         app:showAsAction="ifRoom"/>
 
+    <item
+        android:id="@+id/app_bar_profile"
+        android:title="Profile"
+        app:showAsAction="never"
+        />
+
 </menu>
